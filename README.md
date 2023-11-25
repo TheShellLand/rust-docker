@@ -1,5 +1,7 @@
 # rust-docker
 
+[![CI/CD](https://github.com/TheShellLand/rust-docker/actions/workflows/ci.yml/badge.svg)](https://github.com/TheShellLand/rust-docker/actions/workflows/ci.yml)
+
 Rust in docker
 
 ```shell
