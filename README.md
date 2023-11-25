@@ -2,6 +2,16 @@
 
 Rust in docker
 
+```shell
+$ rust-docker % bash rustup --version
++ docker run --rm -it ghcr.io/theshellland/rust:latest --version
++ eval /root/.cargo/bin/rustup --version
+++ /root/.cargo/bin/rustup --version
+rustup 1.26.0 (5af9b9484 2023-04-05)
+info: This is the version for the rustup toolchain manager, not the rustc compiler.
+info: The currently active `rustc` version is `rustc 1.74.0 (79e9716c9 2023-11-13)`
+```
+
 ## Install and run on docker
 
 ```shell
