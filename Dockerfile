@@ -9,6 +9,6 @@ RUN /root/.cargo/bin/rustup update
 
 COPY entry.sh /
 
-VOLUME /root
+#VOLUME /root
 
 ENTRYPOINT ["/bin/bash", "/entry.sh"]
