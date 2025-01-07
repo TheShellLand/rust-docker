@@ -1,6 +1,6 @@
 FROM ubuntu:latest
 
-# install
+# install rust
 RUN apt update && \
     apt upgrade -y && \
     apt install -y curl && \
