@@ -3,7 +3,7 @@ FROM ubuntu:latest
 # install rust
 RUN apt update && \
     apt upgrade -y && \
-    apt install -y curl && \
+    apt install -y curl git vim && \
     curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- '-y' && \
     /root/.cargo/bin/rustup update && \
     apt clean && \
